@@ -1,0 +1,61 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* شفافة */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.popup-box {
+  border: 2px solid #aa921b;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(40px);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;  /* هذه هي المسافة بين الحقول */
+  justify-content: center;
+}
+
+.popup-box h2,
+.popup-box h3 {
+  margin: 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #655100;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.7); /* خلفية فاتحة */
+  color: #000000;
+}
+.popup-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #000000;
+}
+
+
+button {
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid #d0b31e;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Shawarma Fatteh",
+    "description": "Fresh grilled salmon with seasonal vegetables and special lemon sauce",
+    "price": "150",
+    "image": "dish1",
+    "time": "25 minutes",
+    "serves": "1-2 people"
+  },
+  {
+    "id": 2,
+    "name": "Italian Pasta",
+    "description": "Fresh pasta with Italian tomato sauce and grated Parmesan",
+    "price": "65",
+    "image": "dish2",
+    "time": "20 minutes",
+    "serves": "1 person"
+  },
+  {
+    "id": 3,
+    "name": "Chef's Special Dish",
+    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "price": "120",
+    "image": "dish3",
+    "time": "35 minutes",
+    "serves": "2 people"
+  },
+  {
+    "id": 4,
+    "name": "Maria's Chicken Shawarma Meal",
+    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "price": "130",
+    "image": "dish4",
+    "time": "35 minutes",
+    "serves": "2 people"
+  },
+  {
+    "id": 5,
+    "name": "Double Dinosaur",
+    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "price": "175",
+    "image": "dish5",
+    "time": "35 minutes",
+    "serves": "2 people"
+  },
+  {
+    "id": 6,
+    "name": "Super zinger sandwich",
+    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "price": "105",
+    "image": "dish6",
+    "time": "35 minutes",
+    "serves": "2 people"
+  }
+]
