@@ -16,10 +16,10 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'Menu', href: '/menu' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact us', href: '/contact' },
+    { name: 'الرئيسية', href: '/' },
+    { name: 'القائمة', href: '/menu' },
+    { name: 'من نحن', href: '/about' },
+    { name: 'تواصل معنا', href: '/contact' },
   ];
 
   return (
@@ -34,10 +34,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2 rtl:space-x-reverse">
-                        <img src={logo} alt="Restaurant Logo" className="h-10"/>
-
+            <img src={logo} alt="شعار المطعم" className="h-10"/>
             <h1 className="text-2xl font-playfair font-bold text-primary" style={{ fontFamily: 'cursive' }}>
-              Karam El-sham
+            Karam Al-Sham
             </h1>
           </div>
 
@@ -70,7 +69,7 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1  backdrop-blur-md rounded-lg mt-2">
+            <div className="px-2 pt-2 pb-3 space-y-1 backdrop-blur-md rounded-lg mt-2">
               {navItems.map((item) => (
                 <Link
                   key={item.name}

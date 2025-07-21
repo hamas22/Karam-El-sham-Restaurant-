@@ -22,10 +22,10 @@ const Menu = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-white mb-4">
-            Special Menu
+            قائمة الطعام المميزة
           </h2>
           <p className="text-xl text-gray-300 font-inter max-w-2xl mx-auto">
-            Taste the most delicious dishes prepared with the finest ingredients by expert chefs
+            استمتع بأشهى الأطباق المحضّرة بأجود المكونات على يد أمهر الطهاة
           </p>
           <div className="w-24 h-1 bg-orange-700 mx-auto mt-6 rounded-full"></div>
         </div>
@@ -46,7 +46,7 @@ const Menu = () => {
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110 rounded-lg"
                 />
                 <div className="absolute top-4 right-4 bg-orange-600/90 text-white px-3 py-1 rounded-full font-semibold shadow-lg">
-                  {item.price} EGP
+                  {item.price} جنيه
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ const Menu = () => {
                   className="w-full mt-6 bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg transform hover:scale-105 border border-white"
                   onClick={() => setActivePopupId(item.id)}
                 >
-                  Order Now
+                  اطلب الآن
                 </button>
 
                 {activePopupId === item.id && (
@@ -94,7 +94,7 @@ const Menu = () => {
               className="bg-orange-600 hover:bg-white text-white py-3 px-6 rounded-lg font-semibold transition-all duration-800 hover:shadow-lg border border-white hover:text-orange-600"
               onClick={() => setShowAll(true)}
             >
-              View Full Menu
+              عرض القائمة الكاملة
             </button>
           )}
         </div>

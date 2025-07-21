@@ -4,54 +4,55 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <MapPin className="h-6 w-6" />,
-      title: 'Address',
- details: [
-      '6th of October Branch',
-      'Cairo Branch',
-      'Faisal Branch',
-      'Shubra Branch',
-      'Helwan Branch',
-      'Alexandria Branches',
-      'Heliopolis Branch',
-      'Mansoura Branch',
-      'Maadi Branch']
-        },
+      title: 'العناوين',
+      details: [
+        'فرع السادس من أكتوبر',
+        'فرع القاهرة',
+        'فرع فيصل',
+        'فرع شبرا',
+        'فرع حلوان',
+        'فروع الإسكندرية',
+        'فرع مصر الجديدة',
+        'فرع المنصورة',
+        'فرع المعادي'
+      ]
+    },
     {
       icon: <Phone className="h-6 w-6" />,
-      title: 'Phone',
+      title: 'رقم الهاتف',
       details: ['19509']
     },
     {
       icon: <Mail className="h-6 w-6" />,
-      title: 'Email',
+      title: 'البريد الإلكتروني',
       details: ['contact@logodalil.com', 'reservations@restaurantelite.sa']
     },
     {
       icon: <Clock className="h-6 w-6" />,
-      title: 'Working Hours',
-      details: ['Sat - Thu: 12:00 AM - 12:00 PM', 'Friday: 2:00 AM - 12:00 PM']
+      title: 'ساعات العمل',
+      details: ['السبت - الخميس: 12:00 صباحاً - 12:00 مساءً', 'الجمعة: 2:00 صباحاً - 12:00 مساءً']
     }
   ];
 
   return (
     <section id="contact" className="py-20 bg-[#0e0e0e] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+        {/* عنوان القسم */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-white mb-4">
-            Contact Us
+            تواصل معنا
           </h2>
           <p className="text-xl text-white/70 font-inter max-w-2xl mx-auto">
-            We’re here to help. Reach out to us to reserve a table or inquire about our services.
+            نحن هنا لخدمتك. تواصل معنا لحجز طاولة أو الاستفسار عن خدماتنا.
           </p>
           <div className="w-24 h-1 bg-orange-600 mx-auto mt-6 rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
+          {/* معلومات التواصل */}
           <div>
             <h3 className="text-2xl font-playfair font-semibold text-white mb-8">
-              Contact Information
+              معلومات التواصل
             </h3>
 
             <div className="space-y-6">
@@ -81,55 +82,55 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
+          {/* نموذج الرسالة */}
           <div>
             <h3 className="text-2xl font-playfair font-semibold text-white mb-8">
-              Send a Message
+              أرسل رسالة
             </h3>
 
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-white mb-2">
-                    Name
+                    الاسم
                   </label>
                   <input
                     type="text"
                     className="w-full px-4 py-3 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 bg-white/5 text-white placeholder-white/50 transition-all duration-300"
-                    placeholder="Your name"
+                    placeholder="اسمك"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-white mb-2">
-                    Phone Number
+                    رقم الهاتف
                   </label>
                   <input
                     type="tel"
                     className="w-full px-4 py-3 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 bg-white/5 text-white placeholder-white/50 transition-all duration-300"
-                    placeholder="Your phone"
+                    placeholder="رقم الهاتف"
                   />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-white mb-2">
-                  Email
+                  البريد الإلكتروني
                 </label>
                 <input
                   type="email"
                   className="w-full px-4 py-3 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 bg-white/5 text-white placeholder-white/50 transition-all duration-300"
-                  placeholder="Your email"
+                  placeholder="البريد الإلكتروني"
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-white mb-2">
-                  Message
+                  الرسالة
                 </label>
                 <textarea
                   rows={6}
                   className="w-full px-4 py-3 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 bg-white/5 text-white placeholder-white/50 transition-all duration-300"
-                  placeholder="Write your message here..."
+                  placeholder="اكتب رسالتك هنا..."
                 ></textarea>
               </div>
 
@@ -137,7 +138,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full px-6 py-3 bg-orange-600 text-white rounded-lg font-semibold hover:bg-orange-700 transition-all duration-300 hover:scale-105 border border-white/10"
               >
-                Send Message
+                إرسال الرسالة
               </button>
             </form>
           </div>

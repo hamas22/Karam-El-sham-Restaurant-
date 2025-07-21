@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Chicken Shawarma Fatteh",
-    "description": "Fresh grilled salmon with seasonal vegetables and special lemon sauce",
+    "name": "فتة شاورما دجاج",
+    "description": "فتة شاورما دجاج شهية مع طبقات من الخبز المحمص والأرز وصلصة الزبادي الخاصة",
     "price": "150",
     "image": "dish1",
-    "time": "25 minutes",
-    "serves": "1-2 people"
+    "time": "25 دقيقة",
+    "serves": "1-2 أشخاص"
   },
   {
     "id": 2,
-    "name": "Italian Pasta",
-    "description": "Fresh pasta with Italian tomato sauce and grated Parmesan",
+    "name": "مكرونة إيطالية",
+    "description": "مكرونة إيطالية مطهية بصلصة الطماطم الطازجة ومغطاة بجبن بارميزان مبشور",
     "price": "65",
     "image": "dish2",
-    "time": "20 minutes",
-    "serves": "1 person"
+    "time": "20 دقيقة",
+    "serves": "شخص واحد"
   },
   {
     "id": 3,
-    "name": "Chef's Special Dish",
-    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "name": "طبق الشيف الخاص",
+    "description": "طبق خاص من الشيف يحتوي على مزيج فريد من النكهات والمكونات الفاخرة",
     "price": "120",
     "image": "dish3",
-    "time": "35 minutes",
-    "serves": "2 people"
+    "time": "35 دقيقة",
+    "serves": "شخصان"
   },
   {
     "id": 4,
-    "name": "Maria's Chicken Shawarma Meal",
-    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "name": "شاورما دجاج مع بطاطس",
+    "description": "وجبة شاورما دجاج متكاملة بتتبيلة مميزة، تقدم مع البطاطس والصلصات",
     "price": "130",
     "image": "dish4",
-    "time": "35 minutes",
-    "serves": "2 people"
+    "time": "35 دقيقة",
+    "serves": "شخصان"
   },
   {
     "id": 5,
-    "name": "Double Dinosaur",
-    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "name": "دبل ديناصور ",
+    "description": "ساندويتش ضخم مزدوج من الدجاج المقلي مع طبقات من الجبن والخس وصلصة حارة",
     "price": "175",
     "image": "dish5",
-    "time": "35 minutes",
-    "serves": "2 people"
+    "time": "35 دقيقة",
+    "serves": "شخصان"
   },
   {
     "id": 6,
-    "name": "Super zinger sandwich",
-    "description": "A special selection of the best ingredients with the chef's creative touch",
+    "name": "زنجر مقرمش",
+    "description": "ساندويتش زنجر مقرمش مع خبز طري وخضار طازجة ولمسة من صلصة الثوم",
     "price": "105",
     "image": "dish6",
-    "time": "35 minutes",
-    "serves": "2 people"
+    "time": "35 دقيقة",
+    "serves": "شخصان"
   }
 ]

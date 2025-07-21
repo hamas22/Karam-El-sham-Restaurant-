@@ -10,10 +10,10 @@ const Footer = () => {
           {/* Restaurant Info */}
           <div className="col-span-1 lg:col-span-2">
             <h3 className="text-3xl font-playfair font-bold text-primary mb-4">
-              Restaurant Karam El-Sham
+              مطعم كرم الشام
             </h3>
             <p className="text-white/80 mb-6 leading-relaxed max-w-md">
-              We offer you an exceptional dining experience that combines authentic flavors with modern presentation. Our restaurant is your perfect destination to enjoy delicious dishes in a refined and elegant atmosphere.
+              نقدم لك تجربة طعام استثنائية تجمع بين النكهات الأصلية والتقديم العصري. مطعمنا هو وجهتك المثالية للاستمتاع بأطباق شهية في أجواء راقية وأنيقة.
             </p>
             
             {/* Social Media */}
@@ -41,9 +41,9 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-playfair font-semibold mb-6">Quick Links</h4>
+            <h4 className="text-lg font-playfair font-semibold mb-6">روابط سريعة</h4>
             <ul className="space-y-3">
-              {['Home', 'Menu', 'About Us', 'Contact Us'].map((link) => (
+              {['الرئيسية', 'القائمة', 'من نحن', 'تواصل معنا'].map((link) => (
                 <li key={link}>
                   <a 
                     href="#" 
@@ -58,13 +58,13 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-playfair font-semibold mb-6">Contact Information</h4>
+            <h4 className="text-lg font-playfair font-semibold mb-6">معلومات التواصل</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="text-white/70 text-sm">
-                  <p>Abbas El-Akkad Street</p>
-                  <p>Cairo, Egypt</p>
+                  <p>شارع عباس العقاد</p>
+                  <p>القاهرة، مصر</p>
                 </div>
               </div>
               
@@ -85,14 +85,14 @@ const Footer = () => {
         <div className="border-t border-white/10 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/60 text-sm mb-4 md:mb-0">
-              © 2025 Restaurant Karam El-Sham. All rights reserved.
+              © 2025 مطعم كرم الشام. جميع الحقوق محفوظة.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-white/60 hover:text-primary transition-colors">
-                Privacy Policy
+                سياسة الخصوصية
               </a>
               <a href="#" className="text-white/60 hover:text-primary transition-colors">
-                Terms & Conditions
+                الشروط والأحكام
               </a>
             </div>
           </div>
