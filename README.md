@@ -1,7 +1,8 @@
 # 🍽️ Restaurant Karam El-sham Website
 
----
 Live Demo: https://bucolic-fairy-c2e4ae.netlify.app/
+---
+
 ## 🌟 Project Overview
 
 This project delivers a **modern, responsive, and visually appealing front-end web application** for "Restaurant Karam El-sham." Developed as a challenge to simulate a real-world scenario without a dedicated UI/UX designer, it focuses on **intuitive user experience (UX)** and **attractive user interface (UI)** from conception. The goal was to effectively showcase the restaurant's identity, menu offerings, and unique story online.
