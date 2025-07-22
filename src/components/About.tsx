@@ -36,7 +36,6 @@ const About = () => {
     <section id="about" className="py-20" style={{ backgroundColor: '#0e0e0eff' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* عنوان القسم */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-white mb-4">
             من نحن
@@ -47,7 +46,6 @@ const About = () => {
           <div className="w-24 h-1 bg-orange-500 mx-auto mt-6 rounded-full"></div>
         </div>
 
-        {/* الإحصائيات */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
           {stats.map((stat, index) => (
             <div 
@@ -65,7 +63,6 @@ const About = () => {
           ))}
         </div>
 
-        {/* المميزات */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div
